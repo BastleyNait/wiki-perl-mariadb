@@ -1,0 +1,41 @@
+body {
+  font-family: 'Exo 2', sans-serif;
+  height: 100vh; 
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+}
+
+.form-box {
+  text-align: center;
+}
+
+.input-text {
+  display: inline-block;
+  width: 30%;
+  border: black solid 2.5px;
+  padding: 15px;
+  margin: 10px;
+}
+input[type="submit"] {
+  position: absolute; 
+  padding: 8px;
+  margin: 25px;
+}
+
+a {
+  font-size: 14px;
+  color: #EDEDEC;
+  padding: 8px;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+}
+
+li {
+  margin: 1.2em;
+}
